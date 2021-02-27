@@ -28,7 +28,7 @@ public class GUI implements ActionListener {
 		label = new JLabel("Number of clicks: 0");
 		
 		panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+		panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
 		panel.setLayout(new GridLayout(0, 1));
 		panel.add(button);
 		panel.add(label);
